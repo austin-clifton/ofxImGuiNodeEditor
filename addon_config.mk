@@ -15,11 +15,11 @@
 # and the PG will write to the console the kind of error and in which line it is
 
 meta:
-	ADDON_NAME = ofxImGui
-	ADDON_DESCRIPTION = use ImGui inside openFrameworks
+	ADDON_NAME = ofxImGuiNodeEditor
+	ADDON_DESCRIPTION = use ImGui inside openFrameworks with the Node Editor extension
 	ADDON_AUTHOR = Jason Van Cleave, Constantine Tarasenkov
 	ADDON_TAGS = "gui"
-	ADDON_URL = https://github.com/jvcleave/ofxImGui
+	ADDON_URL = https://github.com/austin-clifton/ofxImGuiNodeEditor
 
 common:
 	# dependencies with other addons, a list of them separated by spaces 

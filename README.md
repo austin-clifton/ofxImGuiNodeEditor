@@ -4,6 +4,8 @@ ofxAddon that allows you to use [ImGui](https://github.com/ocornut/imgui) in [op
 
 This version is forked from [the original ofxImGui](https://github.com/jvcleave/ofxImGui) and adds support for the [ImGui Node Editor](https://github.com/thedmd/imgui-node-editor).
 
+This addon uses ImGui v1.84 and has been tested in OpenFrameworks v0.11 and v0.12.
+
 ![Screenshot](images/Screenshot.png)
 
 > #### Develop Branch

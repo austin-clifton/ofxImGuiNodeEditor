@@ -1,5 +1,7 @@
 #pragma once
 
+#include <stack>
+
 #include "ofGLBaseTypes.h"
 #include "ofParameter.h"
 #include "ofRectangle.h"

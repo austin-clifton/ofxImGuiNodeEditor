@@ -41,6 +41,8 @@ namespace ofxImGui
 
 		if (autoDraw)
 		{
+			/*
+			* TODO figure out what this was for, RenderDrawListsFn seems to have been deprecated...
 			if (ofIsGLProgrammableRenderer())
 			{
 				io.RenderDrawListsFn = programmableDrawData;
@@ -49,6 +51,7 @@ namespace ofxImGui
 			{
 				io.RenderDrawListsFn = fixedDrawData;
 			}
+			*/
 		}
 
 		io.SetClipboardTextFn = &BaseEngine::setClipboardString;

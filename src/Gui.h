@@ -12,6 +12,7 @@
 #include "EngineGLFW.h"
 #endif
 
+#include "implot.h"
 #include "DefaultTheme.h"
 
 namespace ofxImGui

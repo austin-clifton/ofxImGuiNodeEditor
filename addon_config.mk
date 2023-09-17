@@ -59,6 +59,8 @@ common:
 	# when parsing the file system looking for libraries exclude this for all or
 	# a specific platform
 	# ADDON_LIBS_EXCLUDE =
+
+	ADDON_CPPFLAGS += -DIMGUI_DEFINE_MATH_OPERATORS
 	
 linux64:
 	
@@ -72,6 +74,7 @@ linuxarmv7l:
 	#TODO needs EngineGLFW.cpp exclude 
 	
 msys2:
+	ADDON_CPPFLAGS += -DIMGUI_DISABLE_WIN32_DEFAULT_IME_FUNCTIONS
 
 android/armeabi:	
 	
